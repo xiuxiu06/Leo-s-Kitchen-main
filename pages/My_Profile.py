@@ -8,14 +8,14 @@ import sqlite3
 st.set_page_config(page_title="My Profile - Leo's Food App", page_icon="🐱", layout="wide")
 
 # --- SIDEBAR NAVIGATION ---
-st.sidebar.title("Navigation")
-st.sidebar.page_link("app.py", label="🏠 Home", icon="🏠")
-st.sidebar.page_link("pages/about_me.py", label="ℹ️ About Me")
-st.sidebar.page_link("pages/my_recipes.py", label="📊 My Recipes")
-st.sidebar.page_link("pages/chatbot.py", label="🤖 Chat Bot")
-st.sidebar.page_link("pages/post_meal.py", label="📝 Share Your Meal")
-st.sidebar.page_link("pages/profile.py", label="👤 My Profile")
-st.sidebar.page_link("pages/auth.py", label="🔑 Login/Register")
+# st.sidebar.title("Navigation")
+# st.sidebar.page_link("app.py", label="🏠 Home", icon="🏠")
+# st.sidebar.page_link("pages/about_me.py", label="ℹ️ About Me")
+# st.sidebar.page_link("pages/my_recipes.py", label="📊 My Recipes")
+# st.sidebar.page_link("pages/chatbot.py", label="🤖 Chat Bot")
+# st.sidebar.page_link("pages/post_meal.py", label="📝 Share Your Meal")
+# st.sidebar.page_link("pages/profile.py", label="👤 My Profile")
+# st.sidebar.page_link("pages/auth.py", label="🔑 Login/Register")
 
 # Initialize database connection
 def get_db_connection():
